@@ -1,0 +1,32 @@
+name: ProfitFFFA
+main: ProfitFFFA\ProfitFFFA
+version: 1.0.2
+api:
+- 1.0.0
+- 2.0.0
+- 3.0.0
+- 4.0.0
+load: POSTWORLD
+author: xiaokai
+description: 一个帅逼用的插件
+website: http://pmbox.top
+commands:
+   红包:
+      description: 快捷添加一个红包
+      usage: 欲查看更多命令请键入 /pf help
+      permission: ProfitFFFA.Command.FFFasSB
+      aliases:
+      - hb
+   profitfffa:
+      description: 红包主命令
+      usage: 欲查看更多命令请键入 /pf help
+      permission: MiniatureS.Command.mian
+      aliases:
+      - pf
+permissions:
+   ProfitFFFA.Command.mian:
+      description: 红包主命令
+      default: true
+   ProfitFFFA.Command.FFFasSB:
+      description: 快捷添加一个红包
+      default: true
